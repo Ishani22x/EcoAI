@@ -1,0 +1,70 @@
+/* App Container */
+.App {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #ecf0f1; /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    padding: 20px; /* More padding for spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  /* Headings */
+  h1 {
+    color: #2c3e50; /* Darker color for main heading */
+    font-size: 2.5rem; /* Larger font size for emphasis */
+    margin-bottom: 10px; /* Space below the heading */
+  }
+  
+  h2 {
+    color: #34495e; /* Subtle color for secondary headings */
+    font-size: 1.8rem; /* Slightly larger font size */
+    margin: 20px 0; /* More space around the heading */
+  }
+  
+  /* Input and Button Styling */
+  input {
+    border: 2px solid #3498db; /* Blue border for the input */
+    border-radius: 5px; /* Rounded corners for input */
+    padding: 10px; /* More padding for comfort */
+    font-size: 1rem; /* Font size for readability */
+    width: 300px; /* Fixed width for consistency */
+    transition: border-color 0.3s; /* Smooth transition effect */
+  }
+  
+  input:focus {
+    border-color: #2980b9; /* Darker border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #3498db; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners for button */
+    padding: 10px 15px; /* Padding for button */
+    font-size: 1rem; /* Font size for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition effect */
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Darker button color on hover */
+  }
+  
+  button:focus {
+    outline: none; /* Remove outline when focused */
+  }
+  
+  /* Generated Text Styling */
+  p {
+    color: #34495e; /* Text color for the generated text */
+    font-size: 1.2rem; /* Larger font size for visibility */
+    margin-top: 20px; /* Space above the text */
+    padding: 10px; /* Padding around the text */
+    background-color: #fff; /* White background for the text area */
+    border-radius: 5px; /* Rounded corners for the text area */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
